@@ -1,6 +1,6 @@
 module github.com/che-incubator/kubernetes-image-puller
 
-go 1.25.6
+go 1.26.5
 
 require (
 	github.com/google/go-cmp v0.6.0
@@ -30,13 +30,12 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/term v0.39.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/oauth2 v0.36.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
@@ -50,6 +49,7 @@ require (
 )
 
 replace (
-	golang.org/x/net => golang.org/x/net v0.49.0
+	golang.org/x/net => golang.org/x/net v0.58.0
+	golang.org/x/oauth2 => golang.org/x/oauth2 v0.36.0
 	google.golang.org/protobuf => google.golang.org/protobuf v1.34.1
 )
